@@ -9,6 +9,8 @@ import scrapy
 
 
 class NewsspiderItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    colum = scrapy.Field()
+    title = scrapy.Field()
+    newstime = scrapy.Field()
+    content = scrapy.Field()
+
